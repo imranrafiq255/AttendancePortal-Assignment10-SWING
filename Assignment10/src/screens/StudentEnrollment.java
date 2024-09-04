@@ -4,6 +4,8 @@
  */
 package screens;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author apple
@@ -51,6 +53,11 @@ public class StudentEnrollment extends javax.swing.JFrame {
 
         studentEnrollmentBtn.setText("ENROLL");
         studentEnrollmentBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        studentEnrollmentBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                studentEnrollmentBtnActionPerformed(evt);
+            }
+        });
 
         goBackBtn.setText("Go back");
         goBackBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -106,6 +113,10 @@ public class StudentEnrollment extends javax.swing.JFrame {
         AdminDashboard ad = new AdminDashboard();
         ad.setVisible(true);
     }//GEN-LAST:event_goBackBtnActionPerformed
+
+    private void studentEnrollmentBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_studentEnrollmentBtnActionPerformed
+         JOptionPane.showMessageDialog(this, "Student enrolled successfully");
+    }//GEN-LAST:event_studentEnrollmentBtnActionPerformed
 
     /**
      * @param args the command line arguments

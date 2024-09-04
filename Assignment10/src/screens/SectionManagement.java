@@ -4,6 +4,8 @@
  */
 package screens;
 
+import javax.swing.JOptionPane;
+
 public class SectionManagement extends javax.swing.JFrame {
 
     public SectionManagement() {
@@ -340,15 +342,15 @@ public class SectionManagement extends javax.swing.JFrame {
     }//GEN-LAST:event_goBackBtn4ActionPerformed
 
     private void addCourseBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addCourseBtnActionPerformed
-        // TODO add your handling code here:
+         JOptionPane.showMessageDialog(this, "Section added successfully");
     }//GEN-LAST:event_addCourseBtnActionPerformed
 
     private void deleteSectionBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteSectionBtnActionPerformed
-        // TODO add your handling code here:
+         JOptionPane.showMessageDialog(this, "Section deleted successfully");
     }//GEN-LAST:event_deleteSectionBtnActionPerformed
 
     private void updateSectionBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateSectionBtnActionPerformed
-        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, "Section updated successfully");
     }//GEN-LAST:event_updateSectionBtnActionPerformed
 
     /**

@@ -310,7 +310,7 @@ public class CourseManagement extends javax.swing.JFrame {
     }//GEN-LAST:event_goBackBtn4ActionPerformed
 
     private void deleteCourseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteCourseActionPerformed
-        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, "Course deleted successfully");
     }//GEN-LAST:event_deleteCourseActionPerformed
 
     private void goBackBtn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_goBackBtn2ActionPerformed
@@ -321,7 +321,7 @@ public class CourseManagement extends javax.swing.JFrame {
     }//GEN-LAST:event_goBackBtn2ActionPerformed
 
     private void addCourseBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addCourseBtnActionPerformed
-        
+        JOptionPane.showMessageDialog(this, "Course added successfully");
     }//GEN-LAST:event_addCourseBtnActionPerformed
 
     private void goBackBtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_goBackBtn1ActionPerformed

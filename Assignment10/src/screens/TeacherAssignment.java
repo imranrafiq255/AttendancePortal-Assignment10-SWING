@@ -4,6 +4,8 @@
  */
 package screens;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author apple
@@ -51,6 +53,11 @@ public class TeacherAssignment extends javax.swing.JFrame {
 
         teacherAssignmentBtn.setText("ASSIGN");
         teacherAssignmentBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        teacherAssignmentBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                teacherAssignmentBtnActionPerformed(evt);
+            }
+        });
 
         goBackBtn.setText("Go back");
         goBackBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -103,6 +110,10 @@ public class TeacherAssignment extends javax.swing.JFrame {
         AdminDashboard ad = new AdminDashboard();
         ad.setVisible(true);
     }//GEN-LAST:event_goBackBtnActionPerformed
+
+    private void teacherAssignmentBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_teacherAssignmentBtnActionPerformed
+        JOptionPane.showMessageDialog(this, "Teacher assigned successfully");
+    }//GEN-LAST:event_teacherAssignmentBtnActionPerformed
 
     /**
      * @param args the command line arguments

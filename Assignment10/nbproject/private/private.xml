@@ -2,6 +2,16 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/Users/apple/Desktop/Java/JavaBootcamp/Assginments/Assignment10/Assignment10/src/screens/AdminDashboard.java</file>
+            <file>file:/Users/apple/Desktop/Java/JavaBootcamp/Assginments/Assignment10/Assignment10/src/screens/StudentManagement.java</file>
+            <file>file:/Users/apple/Desktop/Java/JavaBootcamp/Assginments/Assignment10/Assignment10/src/screens/SectionManagement.java</file>
+            <file>file:/Users/apple/Desktop/Java/JavaBootcamp/Assginments/Assignment10/Assignment10/src/screens/CourseEnrollment.java</file>
+            <file>file:/Users/apple/Desktop/Java/JavaBootcamp/Assginments/Assignment10/Assignment10/src/screens/TeacherAssignment.java</file>
+            <file>file:/Users/apple/Desktop/Java/JavaBootcamp/Assginments/Assignment10/Assignment10/src/screens/StudentPortal.java</file>
+            <file>file:/Users/apple/Desktop/Java/JavaBootcamp/Assginments/Assignment10/Assignment10/src/screens/TakeAttendance.java</file>
+            <file>file:/Users/apple/Desktop/Java/JavaBootcamp/Assginments/Assignment10/Assignment10/src/screens/CourseManagement.java</file>
+            <file>file:/Users/apple/Desktop/Java/JavaBootcamp/Assginments/Assignment10/Assignment10/src/screens/StudentEnrollment.java</file>
+        </group>
     </open-files>
 </project-private>

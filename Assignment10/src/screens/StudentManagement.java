@@ -4,6 +4,8 @@
  */
 package screens;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author apple
@@ -339,15 +341,15 @@ public class StudentManagement extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void addStudentBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addStudentBtnActionPerformed
-        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, "Student added successfully");
     }//GEN-LAST:event_addStudentBtnActionPerformed
 
     private void deleteStudentBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteStudentBtnActionPerformed
-        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, "Student deleted successfully");
     }//GEN-LAST:event_deleteStudentBtnActionPerformed
 
     private void updateStudentBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateStudentBtnActionPerformed
-        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, "Student updated successfully");
     }//GEN-LAST:event_updateStudentBtnActionPerformed
 
     private void goBackBtn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_goBackBtn4ActionPerformed

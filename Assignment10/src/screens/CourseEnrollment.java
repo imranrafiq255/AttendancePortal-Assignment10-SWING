@@ -4,6 +4,8 @@
  */
 package screens;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author apple
@@ -52,6 +54,11 @@ public class CourseEnrollment extends javax.swing.JFrame {
 
         courseEnrollmentBtn.setText("ENROLL");
         courseEnrollmentBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        courseEnrollmentBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                courseEnrollmentBtnActionPerformed(evt);
+            }
+        });
 
         selectSectionComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         selectSectionComboBox.setBorder(javax.swing.BorderFactory.createTitledBorder("Select section to enroll"));
@@ -104,6 +111,10 @@ public class CourseEnrollment extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void courseEnrollmentBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_courseEnrollmentBtnActionPerformed
+        JOptionPane.showMessageDialog(this, "Course enrolled successfully");
+    }//GEN-LAST:event_courseEnrollmentBtnActionPerformed
 
     /**
      * @param args the command line arguments
